@@ -1,0 +1,89 @@
+{
+  "modules": {
+    "jiraWorkflowPostFunctions": [
+      {
+        "description": {
+          "value": "My Description"
+        },
+        "view": {
+          "url": "/view"
+        },
+        "edit": {
+          "url": "/edit"
+        },
+        "create": {
+          "url": "/create"
+        },
+        "triggered": {
+          "url": "/triggered"
+        },
+        "name": {
+          "value": "My Function"
+        },
+        "key": "workflow-example"
+      },{
+        "modules": {
+          "jiraWorkflowPostFunctions": [
+            {
+              "description": {
+                "value": "My Description"
+              },
+              "view": {
+                "url": "/"
+              },
+              "edit": {
+                "url": "/"
+              },
+              "create": {
+                "url": "/"
+              },
+              "triggered": {
+                "url": "/"
+              },
+              "name": {
+                "value": "My Function"
+              },
+              "key": "workflow-example"
+            }
+          ]
+        },
+        "key": "io.theflofly.attacker-sandbox",
+        "name": "Jira Attacker Sandbox Plugin",
+        "description": "A Jira Plugin that does something.",
+        "vendor": {
+          "name": "Hethical",
+          "url": "https://hethical.io"
+        },
+        "lifecycle": {
+          "installed": "/installed",
+          "uninstalled": "/uninstalled"
+        },
+        "baseUrl": "https://en83v0n11nfb.x.pipedream.net",
+        "authentication": {
+          "type": "jwt"
+        },
+        "scopes": [
+          "NONE"
+        ]
+      }
+    ]
+  },
+  "key": "io.theflofly.attacker-sandbox",
+  "name": "Jira Attacker Sandbox Plugin",
+  "description": "A Jira Plugin that does something.",
+  "vendor": {
+    "name": "Hethical",
+    "url": "https://hethical.io"
+  },
+  "lifecycle": {
+    "installed": "/installed",
+    "uninstalled": "/uninstalled"
+  },
+  "baseUrl": "https://webhook.site/63caa236-9b98-4a92-b00a-f543f8e3b202",
+  "authentication": {
+    "type": "jwt"
+  },
+  "scopes": [
+    "READ"
+  ]
+}
